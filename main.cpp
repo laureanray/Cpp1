@@ -69,7 +69,9 @@ int main(){
     char ans_9;
     char ans_13;
     char ans_14;
-
+    char ans_15;
+    char ans_16[4];
+    char ans_16a;
 
     header(); // Call the header function
 
@@ -155,8 +157,46 @@ int main(){
     cout << endl;
     cout << "Response: ";
     cin >> ans_13;
-    
+
     //Question 14
+    cout << "Question 14" << endl << endl;
+    cout << " \t A." << endl;
+    cout << " \t B." << endl;
+    cout << " \t C." << endl;   
+    cout << endl;
+    cout << "Response: ";
+    cin >> ans_14;
+    
+    // Question 15
+    cout << "Question 15" << endl << endl;
+    cout << " \t A." << endl;
+    cout << " \t B." << endl;
+    cout << " \t C." << endl;   
+    cout << " \t C." << endl;  
+    cout << endl;
+    cout << "Response: ";
+    cin >> ans_15;
+
+    // Question 16
+
+    cout << "Question 16 [Yes / No]: " << endl;
+    cin >> ans_16;
+    // If yes go to this
+    if((ans_16[0] == 'Y' || ans_16[0] == 'y') && (ans_16[1] == 'e' || ans_16[1] == 'E') && (ans_16[2] == 'S' || ans_16[2] == 's') ){
+          cout << endl;
+          cout << "Question 16.1" << endl << endl;
+    cout << " \t A." << endl;
+    cout << " \t B." << endl;
+    cout << " \t C." << endl;   
+    cout << " \t D." << endl;  
+    cout << " \t E." << endl;  
+    cout << " \t F." << endl;  
+    cout << "Response: ";
+    cin >> ans_16a;
+    }
+ 
+
     return 0;
 }
 
+git
